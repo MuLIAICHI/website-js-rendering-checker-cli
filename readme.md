@@ -38,8 +38,8 @@ Run the CLI tool with the -u or --url option followed by the URL of the website 
 
 1. -u, --url <url>: This option allows the user to specify the URL of the website they want to check. The -u is the short form, and --url is the long form of the option. The <url> part indicates that the user should replace it with an actual URL.
 
-Example usage with the short form: `./cli.js -u https://www.example.com`
-Example usage with the long form:` ./cli.js --url https://www.example.com`
+* Example usage with the short form: `./cli.js -u https://www.example.com`
+* Example usage with the long form:` ./cli.js --url https://www.example.com`
 The (required) annotation in the README indicates that providing a value for this option is mandatory when running the command. Users must specify a URL for the tool to work properly.
 
 2. Other options: Depending on the functionality you want to provide in your tool, you can add more options similarly. For example, you might consider adding options like:
